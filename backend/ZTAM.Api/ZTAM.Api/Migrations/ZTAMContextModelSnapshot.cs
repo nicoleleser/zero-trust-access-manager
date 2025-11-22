@@ -3,13 +3,13 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using ZTAM.Api;
+using ZTAM.Api.Data;
 
 #nullable disable
 
 namespace ZTAM.Api.Migrations
 {
-    [DbContext(typeof(ZTAMContext))]
+    [DbContext(typeof(ZTAM.Api.Data.ZTAMContext))]
     partial class ZTAMContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)

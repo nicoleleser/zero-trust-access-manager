@@ -10,7 +10,7 @@ using ZTAM.Api;
 
 namespace ZTAM.Api.Migrations
 {
-    [DbContext(typeof(ZTAMContext))]
+    [DbContext(typeof(ZTAM.Api.Data.ZTAMContext))]
     [Migration("20251122023553_InitialCreate")]
     partial class InitialCreate
     {

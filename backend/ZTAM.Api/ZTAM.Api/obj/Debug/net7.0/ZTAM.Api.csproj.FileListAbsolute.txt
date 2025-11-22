@@ -1,3 +1,10 @@
+/Users/nikki/Desktop/zero-trust-access-manager/backend/ZTAM.Api/ZTAM.Api/obj/Debug/net7.0/ZTAM.Api.csproj.AssemblyReference.cache
+/Users/nikki/Desktop/zero-trust-access-manager/backend/ZTAM.Api/ZTAM.Api/obj/Debug/net7.0/ZTAM.Api.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nikki/Desktop/zero-trust-access-manager/backend/ZTAM.Api/ZTAM.Api/obj/Debug/net7.0/ZTAM.Api.AssemblyInfoInputs.cache
+/Users/nikki/Desktop/zero-trust-access-manager/backend/ZTAM.Api/ZTAM.Api/obj/Debug/net7.0/ZTAM.Api.AssemblyInfo.cs
+/Users/nikki/Desktop/zero-trust-access-manager/backend/ZTAM.Api/ZTAM.Api/obj/Debug/net7.0/ZTAM.Api.csproj.CoreCompileInputs.cache
+/Users/nikki/Desktop/zero-trust-access-manager/backend/ZTAM.Api/ZTAM.Api/obj/Debug/net7.0/ZTAM.Api.MvcApplicationPartsAssemblyInfo.cs
+/Users/nikki/Desktop/zero-trust-access-manager/backend/ZTAM.Api/ZTAM.Api/obj/Debug/net7.0/ZTAM.Api.MvcApplicationPartsAssemblyInfo.cache
 /Users/nikki/Desktop/zero-trust-access-manager/backend/ZTAM.Api/ZTAM.Api/bin/Debug/net7.0/appsettings.Development.json
 /Users/nikki/Desktop/zero-trust-access-manager/backend/ZTAM.Api/ZTAM.Api/bin/Debug/net7.0/appsettings.json
 /Users/nikki/Desktop/zero-trust-access-manager/backend/ZTAM.Api/ZTAM.Api/bin/Debug/net7.0/ZTAM.Api
@@ -45,13 +52,6 @@
 /Users/nikki/Desktop/zero-trust-access-manager/backend/ZTAM.Api/ZTAM.Api/bin/Debug/net7.0/runtimes/win-arm64/native/e_sqlite3.dll
 /Users/nikki/Desktop/zero-trust-access-manager/backend/ZTAM.Api/ZTAM.Api/bin/Debug/net7.0/runtimes/win-x64/native/e_sqlite3.dll
 /Users/nikki/Desktop/zero-trust-access-manager/backend/ZTAM.Api/ZTAM.Api/bin/Debug/net7.0/runtimes/win-x86/native/e_sqlite3.dll
-/Users/nikki/Desktop/zero-trust-access-manager/backend/ZTAM.Api/ZTAM.Api/obj/Debug/net7.0/ZTAM.Api.csproj.AssemblyReference.cache
-/Users/nikki/Desktop/zero-trust-access-manager/backend/ZTAM.Api/ZTAM.Api/obj/Debug/net7.0/ZTAM.Api.GeneratedMSBuildEditorConfig.editorconfig
-/Users/nikki/Desktop/zero-trust-access-manager/backend/ZTAM.Api/ZTAM.Api/obj/Debug/net7.0/ZTAM.Api.AssemblyInfoInputs.cache
-/Users/nikki/Desktop/zero-trust-access-manager/backend/ZTAM.Api/ZTAM.Api/obj/Debug/net7.0/ZTAM.Api.AssemblyInfo.cs
-/Users/nikki/Desktop/zero-trust-access-manager/backend/ZTAM.Api/ZTAM.Api/obj/Debug/net7.0/ZTAM.Api.csproj.CoreCompileInputs.cache
-/Users/nikki/Desktop/zero-trust-access-manager/backend/ZTAM.Api/ZTAM.Api/obj/Debug/net7.0/ZTAM.Api.MvcApplicationPartsAssemblyInfo.cs
-/Users/nikki/Desktop/zero-trust-access-manager/backend/ZTAM.Api/ZTAM.Api/obj/Debug/net7.0/ZTAM.Api.MvcApplicationPartsAssemblyInfo.cache
 /Users/nikki/Desktop/zero-trust-access-manager/backend/ZTAM.Api/ZTAM.Api/obj/Debug/net7.0/staticwebassets/msbuild.ZTAM.Api.Microsoft.AspNetCore.StaticWebAssets.props
 /Users/nikki/Desktop/zero-trust-access-manager/backend/ZTAM.Api/ZTAM.Api/obj/Debug/net7.0/staticwebassets/msbuild.build.ZTAM.Api.props
 /Users/nikki/Desktop/zero-trust-access-manager/backend/ZTAM.Api/ZTAM.Api/obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.ZTAM.Api.props

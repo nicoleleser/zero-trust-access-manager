@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using ZTAM.Api;
+using ZTAM.Api.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 

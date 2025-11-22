@@ -1,5 +1,6 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore.Migrations;
+using ZTAM.Api.Data;
 
 #nullable disable
 

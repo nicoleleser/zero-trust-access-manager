@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 using ZTAM.Api.Models;
 
-namespace ZTAM.Api
+namespace ZTAM.Api.Data
 {
     public class ZTAMContext : DbContext
     {
