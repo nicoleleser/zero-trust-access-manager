@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "KcdOl4rEN8MFMOkiFgSIMjL33jheOdU5I6UEWXzsFCs=",
+  "Source": "ZTAM.Api",
+  "BasePath": "_content/ZTAM.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
