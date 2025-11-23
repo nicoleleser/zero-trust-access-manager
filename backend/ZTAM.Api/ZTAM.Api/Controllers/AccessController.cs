@@ -6,27 +6,50 @@ namespace ZTAM.Api.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class AccessLogsController : ControllerBase
+    public class AccessController : ControllerBase
     {
         private readonly ZTAMContext _context;
 
-        public AccessLogsController(ZTAMContext context)
+        public AccessController(ZTAMContext context)
         {
             _context = context;
         }
 
-        [HttpPost]
-        public IActionResult CreateAccessLog(AccessLog log)
+        public class AccessCheckRequest
         {
-            _context.AccessLogs.Add(log);
-            _context.SaveChanges();
-            return Ok(log);
+            public int UserId { get; set; }
+            public int AppId { get; set; }
         }
 
-        [HttpGet]
-        public IActionResult GetAccessLogs()
+        [HttpPost("check")]
+        public IActionResult CheckAccess([FromBody] AccessCheckRequest req)
         {
-            return Ok(_context.AccessLogs.ToList());
+            // 1. Look up the permission
+            var permission = _context.Permissions
+                .FirstOrDefault(p => p.UserId == req.UserId && p.AppId == req.AppId);
+
+            string result = (permission != null && permission.Action == "allow")
+                ? "allowed"
+                : "denied";
+
+            // 2. Save an access log
+            var log = new AccessLog
+            {
+                UserId = req.UserId,
+                AppId = req.AppId,
+                Result = result
+            };
+
+            _context.AccessLogs.Add(log);
+            _context.SaveChanges();
+
+            // 3. Return result to caller
+            return Ok(new
+            {
+                access = result,
+                userId = req.UserId,
+                appId = req.AppId
+            });
         }
     }
 }

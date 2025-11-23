@@ -16,6 +16,10 @@ builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
+var scope = app.Services.CreateScope();
+var db = scope.ServiceProvider.GetRequiredService<ZTAMContext>();
+SeedData.Initialize(db);
+
 app.UseSwagger();
 app.UseSwaggerUI();
 
